@@ -82,7 +82,7 @@ pip install dynamixel_sdk
 
 Please refer to the [Official Dynamixel SDK Documentation](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/download/) and our [paper](https://doi.org/10.1109/lra.2026.3662616) for logic on reading encoder positions and setting force feedback intensity.
 
-An example script will be released soon.
+A simple implementation example is provided in `Software/MFE_control.py`, which demonstrates force feedback control between the hand exoskeleton and the Inspire RH56BFX robotic hand (both for right hand). Please follow the TODO comments to adapt it to your device, or extend this implementation to develop control logic for other robotic hands.
 
 ---
 
