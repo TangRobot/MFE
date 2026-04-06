@@ -4,7 +4,7 @@ This is the official open-source repository for the paper:
 
 **MFE: A Multimodal Hand Exoskeleton With Interactive Force, Pressure and Thermo-Haptic Feedback**
 
-📄 [Read the Paper](https://doi.org/10.1109/lra.2026.3662616)
+📄 [Read the Paper](http://arxiv.org/abs/2604.02820)
 
 ---
 
@@ -80,7 +80,7 @@ pip install dynamixel_sdk
 
 ### Usage
 
-Please refer to the [Official Dynamixel SDK Documentation](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/download/) and our [paper](https://doi.org/10.1109/lra.2026.3662616) for logic on reading encoder positions and setting force feedback intensity.
+Please refer to the [Official Dynamixel SDK Documentation](https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/download/) and our [paper](http://arxiv.org/abs/2604.02820) for logic on reading encoder positions and setting force feedback intensity.
 
 A simple implementation example is provided in `Software/MFE_control.py`, which demonstrates force feedback control between the hand exoskeleton and the Inspire RH56BFX robotic hand (both for right hand). Please follow the TODO comments to adapt it to your device, or extend this implementation to develop control logic for other robotic hands.
 
